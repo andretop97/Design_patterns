@@ -12,6 +12,8 @@ As duas frases acima dizem respeito ao como delimitar o escopo de uma classe. Im
 
 Um bom exemplo é descrito em um tópico no site [softwareengineering](https://softwareengineering.stackexchange.com/questions/345018/when-using-the-single-responsibility-principle-what-constitutes-a-responsibili), caso seja requisitado que mudemos o banco de dados de Mysql para Oracle, quantas classes terão que ser alteradas ? Se respeitado o SRP, apenas uma. A ideia é que a classe que faça a conexão no padrão sql com o banco tenha sua responsabilidade encapsulada em apenas uma classe, sendo assim, a única afetada caso haja uma mudança. Outro bom exemplo é, aparece um requisito para alterar o cálculo de uma bonificação salarial de um funcionário junior, se essa alteração tiver um efeito cascada, onde mais de uma classe seja modificada, provavelmente não está de acordo com o SRP, porém se o principio for respeitado, muito provavelmente uma única classe responsável pela cálculo dessa bonificação tera que ser alterada.
 
+### Exemplos
+- [Exemplos](./SRP/README.md)
 
 ## Open/Close Principle
 
