@@ -4,6 +4,7 @@ Este repositorio tem como objetico registrar e compilar o resultado dos meus est
 ## O que é ?
 São soluções gerais para problemas já bem consolidados no mundo de software, cada padrão tende a solucionar um problema conhecido, trazendo assim suas vantagens e desvantagens. Padrões de projeto ( Design patterns) são divididos em 3 categorias, padrões Criacionais, Estruturais e Comportamentais, cada categoria representa uma classe de problemas diferentes, e muitas vezes podem ser aplicados mais de um tipo de padrão ao mesmo projeto.
 
+## Do que consiste um padrão ?
 
 
 ## Quais os tipos ?
