@@ -17,6 +17,12 @@ Um bom exemplo é descrito em um tópico no site [softwareengineering](https://s
 
 ## Open/Close Principle
 
+Este princípio, também conhecido como OCP, nos fala que, ao criarmos uma entidade, seja ela uma função, um módulo ou uma classe, a mesma deve ser aberta a extensão porém fechada a modificação. Isso quer dizer que, conforme sua aplicação vá escalando, suas entidades devem ser facilmente extensíveis, sem que isso modifique sua estrutura.
+
+>"Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification"
+>"You should be able to extend a classes behavior, without modifying it."
+
+Existem muitas maneiras de respeitarmos esse princípio, embora não seja nem um pouco fácil implementá-lo na prática. Um dos exemplos mais comuns é o uso de interface e herança, para que quando novos modelos surgirem, elas herdem a classe/interface para assim não alterar a original e respeitar assim o código legado já existente. Outro exemplo é a utilização de diferentes versões de uma mesma funcionalidade, mantendo a original inalterada mas reaproveitando a estrutura que a compõem para uma nova versão. 
 ## Liskov Substitution Principle
 
 ## Interface Segregation Principle
