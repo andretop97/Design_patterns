@@ -23,6 +23,10 @@ Este princípio, também conhecido como OCP, nos fala que, ao criarmos uma entid
 >"You should be able to extend a classes behavior, without modifying it."
 
 Existem muitas maneiras de respeitarmos esse princípio, embora não seja nem um pouco fácil implementá-lo na prática. Um dos exemplos mais comuns é o uso de interface e herança, para que quando novos modelos surgirem, elas herdem a classe/interface para assim não alterar a original e respeitar assim o código legado já existente. Outro exemplo é a utilização de diferentes versões de uma mesma funcionalidade, mantendo a original inalterada mas reaproveitando a estrutura que a compõem para uma nova versão. 
+
+### Exemplos
+- [Exemplos](./OCP/README.md)
+
 ## Liskov Substitution Principle
 
 ## Interface Segregation Principle
