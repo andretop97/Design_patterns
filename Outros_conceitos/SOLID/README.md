@@ -28,7 +28,10 @@ Existem muitas maneiras de respeitarmos esse princípio, embora não seja nem um
 - [Exemplos](./OCP/README.md)
 
 ## Liskov Substitution Principle
+Este princípio tem como base a ideia de que a substituição de um objeto por um de seus herdeiros não deve quebrar a sua aplicação. O que isso quer dizer ? Isso no diz que embora maneira que as classes herdeiras implementa os métodos mudam, elas ainda devem respeitar o comportamento da classe pai, trazendo o mesmo tipo de retorno e implementando os mesmo métodos, para que assim, caso seja necessário uma substituição  de um objeto pelo outro, a implementação ocorra de forma simples e fácil.
 
+"Uma classe derivada pode ser substituivel por sua classe base"
+> "Let q(x) be a property provable about objects of x of type T. Then q(y) should be provable for objects y of type S where S is a subtype of T."
 ## Interface Segregation Principle
 
 ## Dependecy Inversion Principle
