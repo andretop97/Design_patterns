@@ -32,6 +32,21 @@ Este princípio tem como base a ideia de que a substituição de um objeto por u
 
 "Uma classe derivada pode ser substituivel por sua classe base"
 > "Let q(x) be a property provable about objects of x of type T. Then q(y) should be provable for objects y of type S where S is a subtype of T."
+
+### Restrições e contratos
+Para que as necessidades desse pilar sejam cumpridas, temos que ter em mente a ideia de regras e contratos das nossas classes abtratas/base, onde algum pontos são limitantes quanto ao escopo das subclasses, como por exemplo as assinaturas dos metodos e os comportamentos condicionais.
+
+Quanto a assinatura dos metodos:
+- Os argumentos das subclasses tem que ser iguais ou mais genericas do que as classes base
+- Os valores retornados devem ser iguais ou mais restritivos do que as da classe base 
+- Nenhuma exceção deve ser gerada pelas subclasses
+
+Quanto ao comportamento condicional:
+- pre condições não podem ser mais fortes em uma classe derivada
+- pos condições não podem ser mais fracas em uma classe derivada
+- Invariaveis da classe base devem ser preservadas nas subclasses
+- O estado da classe base deve ser preservado se tal restrição existir nela
+
 ## Interface Segregation Principle
 
 ## Dependecy Inversion Principle
