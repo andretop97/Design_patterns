@@ -48,8 +48,22 @@ Quanto ao comportamento condicional:
 - O estado da classe base deve ser preservado se tal restrição existir nela
 
 ## Interface Segregation Principle
+Neste princípio falamos sobre boas práticas ao criar contratos de interface, onde uma interface não deve implementar métodos que suas subclasses não irão utilizar.
 
-## Dependecy Inversion Principle
+> “Clients should not be forced to depend upon interfaces that they do not use.”
+
+Sendo assim, interfaces devem ser muito bem planejadas, e caso em uma classe seja necessário implementar um método que não será utilizado, logo o código viola o princípio deve ser refatorado.
+
+
+
+## Dependency Inversion Principle
+Esse princípio diz respeito sobre a dependência entre módulos, ele nos diz que módulos de alto nível ( normalmente módulos de lógica ou que unificam os processos ) não devem depender de módulos de baixo nível ( Módulos que comprem tarrafas específicas ). E que ambos os módulos devem depender de abstrações ao invés disso.
+
+>High-level modules should not depend on low-level modules. Both should depend on abstractions.
+>Abstractions should not depend on details. Details should depend on abstractions.
+
+Isso nos diz que, ao criarmos abstrações ( interfaces ) para intermediar a comunicação, nos tiramos da classe de alto nível a dependência que ela tem da classe de baixo nível, externalizando essa dependência em um contrato que é a interface, assim a classe de baixo nível é obrigada a implementar as necessidades específicas da classe de alto nível de maneira desacoplada, viabilizando inclusive diferentes implementações dessa dependência.
+
 
 ## Fontes
 - https://softwareengineering.stackexchange.com/questions/395419/how-can-a-class-have-multiple-methods-without-breaking-the-single-responsibility
