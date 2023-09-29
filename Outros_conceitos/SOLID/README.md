@@ -62,7 +62,7 @@ Esse princípio diz respeito sobre a dependência entre módulos, ele nos diz qu
 >High-level modules should not depend on low-level modules. Both should depend on abstractions.
 >Abstractions should not depend on details. Details should depend on abstractions.
 
-Isso nos diz que, ao criarmos abstrações ( interfaces ) para intermediar a comunicação, nos tiramos da classe de alto nível a dependência que ela tem da classe de baixo nível, externalizando essa dependência em um contrato que é a interface, assim a classe de baixo nível é obrigada a implementar as necessidades específicas da classe de alto nível de maneira desacoplada, viabilizando inclusive diferentes implementações dessa dependência.
+Isso nos diz que, ao criarmos abstrações ( interfaces ) para intermediar a comunicação, nos tiramos da classe de alto nível a dependência que ela tem da classe de baixo nível, externalizando essa dependência em um contrato abstrato ( não detalhado )  que é a interface, assim a classe de baixo nível é obrigada a implementar as necessidades específicas da classe de alto nível de maneira desacoplada, viabilizando inclusive diferentes implementações dessa dependência.
 
 
 ## Fontes
