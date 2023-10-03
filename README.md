@@ -14,6 +14,9 @@ São soluções gerais para problemas já bem consolidados no mundo de software,
 
 ## Quando Aplicar ?
 
+## Quando não aplicar
+- Não forçar o uso de um padrão, eles são especificos de um problema e trazem um trade off que pode prejudicar o projeto
+- Certificar que os membros da equipe conhecem os padrões  utilizados
 ## Fontes
 - [Design Patterns em TypeScript Entendendo Padrões de Projetos](https://www.udemy.com/course/curso-design-patterns-typescript/learn/lecture/25114156?start=0#overview)
 - GIRIDHAR, Chetan. Aprendendo Padrões de Projeto em Python. São Paulo: Novatec, 2016.
