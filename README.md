@@ -25,9 +25,9 @@ Descreve as vantagens e as desvantagens de usarmos certo padrão, um exemplo sim
 
 
 ## Quais os tipos ?
-- Criacionais
-- Estruturais
-- Comportamentais
+- [Criacionais](./Criacionais/README.md)
+- [Estruturais](./Estruturais/README.md)
+- [Comportamentais](./Comportamentais/README.md)
 ## Fontes
 - [Design Patterns em TypeScript Entendendo Padrões de Projetos](https://www.udemy.com/course/curso-design-patterns-typescript/learn/lecture/25114156?start=0#overview)
 - GIRIDHAR, Chetan. Aprendendo Padrões de Projeto em Python. São Paulo: Novatec, 2016.
