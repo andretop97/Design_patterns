@@ -24,8 +24,30 @@ Descreve a ideia abstrata para a solução de um problema específico. A Soluç�
 Descreve as vantagens e as desvantagens de usarmos certo padrão, um exemplo simples é o trade-off entre armazenamento e tempo de processamento, podem também variar com a linguagem escolhida para a implementação do projeto.
 
 
-## Quais os tipos ?
-- [Criacionais](./Criacionais/README.md)
+## Descrevendo um padrão de projeto
+Descreveremos os padrões de projeto seguindo o modelo apresentado no livro "Padrões de projeto, Soluções reutilizaveis de software orientado a objetos" do GoF:
+
+- Nome e classificação do padrão
+- Intenção e Objetivo
+- Tambem conhecido como
+- Motivação
+- Aplicabilidade
+- Estrutura
+- Participantes
+- Colaborações
+- Consequencias
+- Implementação
+- Exemplos de codigo
+- Usos conhecidos
+- Padrões ralacionados 
+
+## Categorizando os Padrões ?
+Podemos categorizar um apdrão de duas maneiras, pelo seu proposito e pelo seu escopo, sendo o proposito a categoria sobre o que o padrão faz, e o escopo refletindo se o padrão se aplica a classe ou ao objeto, assim sendo dividimos os padrões como mostra a figura abaixo.
+
+![Proposito vs Escopo](./Finalidade_escopo.png)
+
+Separando pelo proposito temos :
+- [De criação](./Criacionais/README.md)
 - [Estruturais](./Estruturais/README.md)
 - [Comportamentais](./Comportamentais/README.md)
 ## Fontes
