@@ -1,14 +1,14 @@
 # Factory Method
 - Nome e classificação do padrão
 
-## Como solucionar
-
 ## Intenção e Objetivo
-Esse padrão tem a intenção de fornece uma interface (fabrica) para criação de uma familia de objetos relacionados ou dependentes sem especificar sua classe concreta, permitindo assim que as subclasses alterem o tipo de objeto que serão criados sem desrespeitar a superclasse.
+- Definir uma interface para criar um objeto, mas deixar as subclasses decidirem que classe instanciar. O Factory method permite adiar a instanciação para as subclasses.
+- A criação do factory method é feita por herança
+- Definimos uma interface para criar um objeto, mas, em vez de a fabrica ser responsavel pela criação dos objetos, a responsabilidade é passada para a subclasse, que decidirá a classe a ser instanciada
+- O Factory Method é um padrão criacional de projeto que fornece uma interface para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão criados.
 
-Substituimos a criação direta de objetos por uma classe intermediaria que fara o papel de uma Fabrica, essa classe por sua vez ira controlar como criar os produtos ( objetos/Classe concreta criados pela fabrica )
 ## Tambem conhecido como
-- kit 
+- Virtual Constructor 
 
 ## Motivação
 
